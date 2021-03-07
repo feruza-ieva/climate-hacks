@@ -1,0 +1,189 @@
+*{margin: 0;}
+.bg-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("girls.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.container {
+  width: 100%;
+  position: relative;
+
+}
+
+
+.logo img{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-bottom: 14px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  header{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 90px;
+    margin-bottom: 16px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+.menu {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: right;
+ overflow: hidden;
+ background: rgba(0,0,0,.2);
+ padding: 20px;
+}
+
+.menu li {
+  float: right;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family:  'CoreySansRegular';
+  font-size: 1.0em;
+  padding: 14px 16px;
+  font-weight: bolder;
+
+ }
+ .menu li:hover {
+ background-color: #5F9EA0;
+ color: white;
+ border-radius: 5rem 10rem;
+}
+.menu li.active {
+ background-color: #4CAF50;
+ color: white;
+}
+.menu li a:hover {
+  color: white;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'JelleeBold';
+  font-weight: bold;
+  color: black;
+}
+h3{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'JelleeBold';
+  color: #5F9EA0;
+}
+
+h4{
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 300px;
+  margin-top:100px;
+  font-size: 90px;
+  font-family: 'JelleeBold';
+  color: #5F9EA0;
+  font-weight: bold;
+}
+h5{
+  border: solid #dae6f2;
+  background-color: #dae6f2;
+  color: #dae6f2;
+  font-size: 40px;
+}
+h6{
+  border: solid #5F9EA0;
+  background-color: #5F9EA0;
+  color: #5F9EA0;
+  font-size: 40px;
+}
+p{
+  padding-top: 90px;
+  margin-top: 90px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 30px;
+  font-weight:  normal;
+  font-family: 'Nunito', sans-serif;
+  color:  black;
+}
+img{
+  float: right;
+}
+section{
+  background-color: #dae6f2;
+}
+.fit-picture{
+  float: left;
+  width:362px;
+  height: 300px;
+  margin-left:   40px;
+
+}
+.fixed-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("hand.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+iframe{
+  padding-top: 50px;
+  margin-left: 70px;
+
+}
+.footer {
+   position: inherit;
+   left: 0;
+   bottom: 0;
+   width: 93%;
+   background-color:  #5F9EA0 ;
+   color: white;
+   font-size: 20px;
+   padding: 50px;
+}
+.left-col{
+  margin-left: 500px;
+}
+
+.footer-social-icons{
+  width: 100%;
+  height: : auto;
+  margin: auto;
+}
+.footer-social-icons ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.footer-social-icons ul li{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  border-radius: 100%;
+  background: white;
+
+}
+.footer-social-icons ul li a{
+  color: #ADD8E6;
+  font-size: 25px;
+}
+.footer-social-icons ul li a i{
+  line-height: 50px;
+}
+.footer-social-icons ul li a i:hover{
+  opacity: 0.7;
+ color:#008B8B;
+}
